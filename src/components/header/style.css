@@ -1,0 +1,57 @@
+.header {
+    background: var(--primary);
+}
+
+.header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 957px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header .conteiner img {
+    width: 120px;
+    cursor: pointer;
+    background: #1c1c1c;
+}
+
+.input-busca {
+    background: #1c1c1c;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    border: 1px solid rgb(60, 60, 60);
+}
+
+.input-busca input {
+    font-size: 14px;
+    padding: 3px;
+    height: 30px;
+    width: 300px;
+    background: #1c1c1c;
+}
+
+.menu-icons {
+    display:contents;
+    cursor: pointer;
+}
+
+button {
+    background: rgb(201, 0, 0);
+    color: white;
+    border: 1px;
+    border-radius: 20px;
+    width: 170px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.user{
+    border-radius: 50px;
+    width: 5px;
+    height: 20px;
+}
